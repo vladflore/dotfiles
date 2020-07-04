@@ -1,9 +1,13 @@
+# include everything, recursively
 /*
+# exclude given item - in this case it is a folder 
 !.config
+# include everything inside given folder, recursively
 .config/*
+# exclude given item - in this case it is a folder 
 !.config/alacritty
 
-
+# exclude the following items - in this case these are all files
 !.vimrc
 !.bashrc
 !.gitignore
