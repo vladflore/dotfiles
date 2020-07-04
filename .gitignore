@@ -1,0 +1,11 @@
+/*
+!.config
+.config/*
+!.config/alacritty
+
+
+!.vimrc
+!.bashrc
+!.gitignore
+!.bash_aliases
+!.fzf.bash
