@@ -6,6 +6,7 @@
 .config/*
 # exclude given item - in this case it is a folder 
 !.config/alacritty
+!.config/nvim
 
 # exclude the following items - in this case these are all files
 !.vimrc

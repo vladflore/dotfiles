@@ -146,3 +146,5 @@ export SDKMAN_DIR="/home/vlad/.sdkman"
 export PATH="~/bin:~/.cargo/bin:$PATH"
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+export PATH="/home/vlad/.ebcli-virtual-env/executables:$PATH"
