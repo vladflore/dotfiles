@@ -20,7 +20,6 @@ set scrolloff=8
 set noshowmode
 set completeopt=menuone,noinsert,noselect
 set signcolumn=yes
-set colorcolumn=80
 set backspace=indent,eol,start  " more powerful backspacing
 
 call plug#begin('~/.vim/plugged')
