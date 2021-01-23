@@ -27,6 +27,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'gruvbox-community/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 

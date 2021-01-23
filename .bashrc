@@ -147,4 +147,13 @@ export PATH="~/bin:~/.cargo/bin:$PATH"
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
+export POSTGRES_USERNAME=udagramflore
+export POSTGRES_PASSWORD=udagramflore
+export POSTGRES_DATABASE=udagramflore
+export POSTGRES_HOST=udagramfloredev.ce8p30yx9faw.us-east-2.rds.amazonaws.com
+export AWS_REGION=us-east-2
+export AWS_PROFILE=default
+export AWS_MEDIA_BUCKET=udagramflore-dev
+export JWT_SECRET=mysecret
+
 export PATH="/home/vlad/.ebcli-virtual-env/executables:$PATH"
