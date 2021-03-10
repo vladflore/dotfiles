@@ -123,7 +123,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export PATH="/opt/maven/apache-maven-3.6.1/bin:$PATH"
+export PATH="/opt/maven/apache-maven-3.6.3/bin:$PATH"
 export TNS_ADMIN=/home/vlad/vladflore.dev/sandbox/iac-devops
 export MAVEN_OPTS="-Xms1024m -Xmx4096m -XX:PermSize=1024m"
 export WINEARCH=win32
@@ -148,3 +148,6 @@ export VISUAL=vim
 export EDITOR="$VISUAL"
 
 export PATH="/home/vlad/.ebcli-virtual-env/executables:$PATH"
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
